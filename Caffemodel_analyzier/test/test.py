@@ -109,7 +109,7 @@ class TestTools(unittest.TestCase):
         
         image_list = pickle.load(open('image_list_save_tmp.p', 'rb'))
 
-	    predict_label_list = []
+	predict_label_list = []
         expected_result = [0, 0, 1, 1]
 	
         for image in image_list:
