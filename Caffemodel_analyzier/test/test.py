@@ -105,7 +105,7 @@ class TestTools(unittest.TestCase):
     def test_4_test_CPU(self):
         _net = model.read(False, None, 'test_deploy.prototxt',
                     'testmodel.caffemodel', 1, 3, 227, 227)
-	    _transformer = transformer.set(_net, 'test_mean_bin', True)
+	_transformer = transformer.set(_net, 'test_mean_bin', True)
         
         image_list = pickle.load(open('image_list_save_tmp.p', 'rb'))
 
