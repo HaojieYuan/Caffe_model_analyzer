@@ -1,5 +1,5 @@
 # Caffe_model_analyzer
-![alt tag](https://travis-ci.org/HaojieYuan/Caffe_model_analyzer.svg?branch=master)
+[![alt tag](https://travis-ci.org/HaojieYuan/Caffe_model_analyzer.svg?branch=master)](https://travis-ci.org/HaojieYuan/Caffe_network_training)
 
 Modify the config.py and test your own caffe model.
 
