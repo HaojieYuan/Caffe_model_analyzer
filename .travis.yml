@@ -11,7 +11,6 @@ services:
 
 install:
 - docker pull haojieyuan/caffe_training_and_analyzing:cpu
-- docker run haojieyuan/caffe_training_and_analyzing:cpu /bin/sh -c  "cd /workspace/Caffe_model_analyzer/Caffemodel_analyzier/test; python test.py"
 
-#script:
-#- ./Caffe_model_analyzer/test/test.py
+script:
+- docker run haojieyuan/caffe_training_and_analyzing:cpu /bin/sh -c  "cd /workspace/Caffe_model_analyzer/Caffemodel_analyzier/test; python test.py"
